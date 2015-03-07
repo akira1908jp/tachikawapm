@@ -13,7 +13,11 @@ A self-hosted chat app for small teams built by [Security Compass][seccom].
 * Mentions (hey @you)
 * Image embeds
 * Code pasting
+<<<<<<< HEAD
 * File uploads (Local / [Amazon S3][s3])
+=======
+* File uploads (Local / [Amazon S3][s3] / [Azure][azure])
+>>>>>>> 3fe7bb72327f6d12df250186a7c238c929687d95
 * Transcripts / chat history
 * XMPP Multi-user chat (MUC)
 * Local / [Kerberos][kerberos] / [LDAP][ldap] authentication
@@ -81,3 +85,7 @@ Released under [the MIT license][license].
 [s3]: https://github.com/sdelements/lets-chat-s3
 [seccom]: http://securitycompass.com/
 [hubot]: https://github.com/sdelements/hubot-lets-chat
+<<<<<<< HEAD
+=======
+[azure]: https://github.com/maximilian-krauss/lets-chat-azure
+>>>>>>> 3fe7bb72327f6d12df250186a7c238c929687d95

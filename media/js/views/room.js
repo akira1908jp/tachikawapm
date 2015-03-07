@@ -364,7 +364,11 @@
         },
         updateUser: function(user) {
             var $messages = this.$('.lcb-message[data-owner="' + user.id + '"]');
+<<<<<<< HEAD
             $messages.find('.lcb-message-username').text(user.get('username'));
+=======
+            $messages.find('.lcb-message-username').text('@' + user.get('username'));
+>>>>>>> 3fe7bb72327f6d12df250186a7c238c929687d95
             $messages.find('.lcb-message-displayname').text(user.get('displayName'));
         }
     });
